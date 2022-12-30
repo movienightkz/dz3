@@ -1,0 +1,1583 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+
+ /* container */
+ .container {
+    width: 820px;
+    max-width: 100%;
+    margin: 0 auto;
+ }
+
+
+
+ /*header*/
+ .header {
+    width: 100%;
+    position: relative;
+    z-index: 5;
+ }
+
+.header-inner {
+    display: inline-flex;
+}
+
+ .nav {
+    padding-top: 30px;
+    position: relative;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+ }
+
+ .nav-links {
+    text-decoration: none;
+    color: white;
+    display: inline-flex;
+    vertical-align: top;
+    margin-right: 30px;
+    letter-spacing: 0.1em;
+ }
+
+ .number {
+    font-size: 11px;
+    padding-top: 30px;
+    margin-left: 120px;
+
+ }
+
+ .number:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #D1A954;
+ }
+
+ 
+
+ /*intro*/
+ .intro {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url("./fotki/Rectangle3.jpg") center no-repeat;
+    background-size: cover;
+    margin-top: -57px;
+ }
+
+ .title {
+    font-weight: 600;
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-top: 180px;
+    letter-spacing: 0.05em;
+
+ }
+
+ .subtitle {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 150%;
+    width: 420px;
+    padding-top: 35px;
+    font-style: normal;
+
+ }
+
+ .button {
+    border: #D1A954 3px solid;
+    background-color: #D1A954;
+    width: 120px;
+    height: 37px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 40px;
+   
+
+ }
+
+ .image-top {
+    display: flex;
+    position: relative;
+    margin-top: -344px;
+    margin-left: 530px;
+    z-index: 4;
+    height: 335px;
+
+
+ }
+
+ .image-buttom {
+    display: flex;
+    position: relative;
+    margin-top: -321px;
+    margin-left: 543px;
+    z-index: 1;
+    width: 2px;
+    height: 335px;
+ }
+
+ .indicator1 {
+    margin-left: 527px;
+    margin-top: 24px;
+    text-transform: uppercase;
+    font-size: 13px;
+
+
+ }
+
+ .indicator2 {
+    margin-left: 706px;
+    margin-top: -20px;
+    text-transform: uppercase;
+    font-size: 13px;
+
+ }
+
+ /* sidebar*/
+
+ .p-sidebar {
+    transform: rotate(270deg);
+    color: #C4C4C4;
+    margin: 280px 0 100px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+ }
+
+ .sidebar {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 100%;
+    width: 115px;
+    position: fixed;
+    z-index: 1000;
+    background: rgba(51, 51, 51, 0.75);
+    padding-top: 20px;
+    float: left;
+    
+ }
+
+ .vl {
+    border-left: 2px solid #C4C4C4;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+.ad {
+    margin-bottom: 10px;
+}
+
+
+
+
+ /*block-2*/
+.block-2 {
+    background-color: #333333;
+    width: 100%;
+    height: 70vh;
+    position: relative;
+
+}
+
+span {
+    color: #D1A954;
+}
+
+.block-2inner {
+    display: inline-flex;
+}
+
+.ggg {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    padding-top: 100px;
+}
+
+.spb {
+    padding-top: 80px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.txtspb {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 150%;
+    padding-top: 30px;
+    width: 350px;
+    text-transform: none;
+}
+
+.chair {
+   padding-top: 30px;
+   width: 43px;
+   height: 84px;
+   
+   
+}
+
+.bed {
+   width: 53px;
+   height: 47px;
+}
+
+.dom {
+   width: 320px;
+   height: 227px;
+   margin-top: 82px;
+   padding-left: 70px;
+   
+}
+
+.txtspb2 {
+   font-weight: 700;
+   font-size: 11px;
+   line-height: 150%;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.information2 {
+   padding-left: 20px;
+   
+}
+
+/*block-3*/
+
+
+.block-3 {
+   display: block;
+   position: relative;
+   background-color: #333333;
+   width: 100%;
+   height: 100vh;
+}
+
+.slider {
+   position: relative;
+   padding-top: 65px;
+   
+}
+
+/*fotki vonuchie*/
+.fotka1 {
+   float: right;
+   width:308px;
+   height:385px;
+}
+
+/*4 Блок*/
+
+.block-4 {
+   text-align: center;
+   background-color: #333333;
+   width: 100%;
+   height: 70vh;
+}
+
+.zvezdi {
+   position: relative;
+   width: 800px;
+   height: 400px;
+   margin-top: 50px;
+}
+
+/*5 Блок*/
+
+.block-5 {
+   background-color: #333333;
+   width: 100%;
+   height: 65vh;
+}
+
+
+.gasprom1 {
+   width: 150px;
+   height: 70px;
+   margin: 20px 20px 20px 20px;
+}
+.gasprom2 {
+   width: 150px;
+   height: 70px;
+   margin: 20px 20px 20px 20px;
+}
+.gasprom3 {
+   width: 150px;
+   height: 70px;
+   margin: 20px 20px 20px 20px;
+}
+.gasprom4 {
+   width: 150px;
+   height: 70px;
+   margin: 20px 20px 20px 20px;
+}
+.gasprom5 {
+   width: 150px;
+   height: 70px;
+   margin: 20px 20px 20px 20px;
+}
+.gasprom6 {
+   width: 150px;
+   height: 70px;
+   margin: 20px 20px 20px 20px;
+}
+.gasprom7 {
+   width: 150px;
+   height: 70px;
+   margin: 20px 20px 20px 20px;
+}
+.gasprom8 {
+   width: 150px;
+   height: 70px;
+   margin: 20px 20px 20px 20px;
+}
+
+.qqq {
+   padding-top: 60px;
+   padding-left: 30px;
+}
+
+
+/*6 Блок*/
+
+.block-6 {
+   background-color: #333333;
+   width: 100%;
+   height: 70vh;
+}
+
+.block-6inner {
+   display: inline-flex;
+   position: relative;
+}
+
+.info1 {
+   padding-top: 80px;
+   width: 200px;
+}
+
+.info2 {
+   padding-left: 80px;
+   padding-top: 80px;
+   width: 500px;
+}
+
+p {
+   font-size: 11px;
+   line-height: 35px;
+   text-transform: uppercase;
+}
+
+.name1 {
+   background-color: #444444;
+   border: 1px #444444 solid;
+   width: 130px;
+   height: 25px;
+   font-size: 11px;
+   margin: 8px 13px 17px 6px;
+   padding-left:3px ;
+
+}
+
+.name2 {
+   background-color: #444444;
+   border: 1px #444444 solid;
+   width: 130px;
+   height: 25px;
+   font-size: 11px;
+   margin: 8px 13px 17px 6px;
+   padding-left:3px ;
+
+}
+
+.name3 {
+   background-color: #444444;
+   border: 1px #444444 solid;
+   width: 130px;
+   height: 25px;
+   font-size: 11px;
+   margin: 8px 13px 17px 6px;
+   padding-left:3px ;
+
+}
+
+.name4 {
+   background-color: #444444;
+   border: 0.5px #444444 solid;
+   width: 130px;
+   height: 25px;
+   font-size: 11px;
+   margin: 8px 13px 17px 6px;
+   padding-left:3px ;
+}
+
+.name5 {
+   background-color: #444444;
+   border: 1px #444444 solid;
+   width: 210px;
+   height: 75px;
+   font-size: 11px;
+   margin: 8px 13px 17px 6px;
+   padding-left:3px ;
+}
+
+
+.info4 {
+   margin-top: 7px;
+   margin-left: 375px;
+}
+
+
+.info3 {
+   margin-top: -55px;
+   margin-left: 5px;
+}
+
+
+.btn23 {
+   background-color: #D1A954;
+   width: 140px;
+   height: 35px;
+   border: 1px #D1A954 solid;
+
+}
+
+.btn22 {
+   background-color: #D1A954;
+   color: white;
+   border: 1px #D1A954 solid;
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 12px;
+
+}
+
+
+
+.ttt {
+   color: #989898;
+   font-size: 9px;
+   text-transform: none;
+   width: 300px;
+   line-height: normal;
+   padding-top: 20px;
+}
+
+
+.name5div {
+   margin-top: -99px;
+   margin-left: 299px;
+}
+
+
+/*footer*/
+
+.footer {
+   background-color: #333333;
+   width: 100%;
+   height: 10vh;
+}
+
+.horizontal {
+border: 0.5px solid #565656;
+height: 0.5px;
+width: 820px;
+}
+
+
+.leftfooter {
+float: left;
+font-size: 9px;
+color: #989898;
+padding-top: 15px;
+}
+
+.rightfooter {
+float: right;
+font-size: 9px;
+color: #989898;
+padding-top: 15px;
+
+}
+
+/*ДЛЯ АЙФОНА 12 ПРО */
+
+@media screen and (max-Width:391px){
+   
+   .container {
+      width: 360px;
+      max-width: 100%;
+      margin: 0 auto;
+   }
+  
+  
+   /*header*/
+   .header {
+      width: 100%;
+      position: relative;
+      z-index: 5;
+   }
+  
+  .header-inner {
+      display: inline-flex;
+  }
+  
+   .nav {
+      padding-top: 30px;
+      position: relative;
+      font-size: 9px;
+      text-transform: uppercase;
+      font-weight: 700;
+      visibility: hidden;
+      display: none;
+   }
+  
+   .nav-links {
+      text-decoration: none;
+      color: white;
+      display: inline-flex;
+      vertical-align: top;
+      margin-right: 30px;
+      letter-spacing: 0.1em;
+   }
+  
+   .number {
+      font-size: 11px;
+      padding-top: 39px;
+      margin-left: 258px;
+  
+   }
+  
+   .number:after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 2px;
+      background-color: #D1A954;
+   }
+  
+   
+  
+   /*intro*/
+   .intro {
+      display: flex;
+      position: relative;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      height: 69vh;
+      background: url("./fotki/Rectangle3.jpg") center no-repeat;
+      background-size: cover;
+      margin-top: -57px;
+   }
+  
+   .title {
+      font-weight: 600;
+      font-size: 35px;
+      text-transform: uppercase;
+      margin-top: 134px;
+      margin-left: 16px;
+      letter-spacing: 0.05em;
+  
+   }
+  
+   .subtitle {
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 150%;
+      width: 330px;
+      padding-top: 76px;
+      font-style: normal;
+  
+   }
+  
+   .button {
+      border: #D1A954 3px solid;
+      background-color: #D1A954;
+      width: 111px;
+      height: 33px;
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: white;
+      margin-top: 40px;
+     
+  
+   }
+  
+   .image-top {
+      display: flex;
+      position: relative;
+      margin-top: -344px;
+      margin-left: 530px;
+      z-index: 4;
+      height: 335px;
+      visibility: hidden;
+      display: none;
+  
+  
+   }
+  
+   .image-buttom {
+      display: flex;
+      position: relative;
+      margin-top: -321px;
+      margin-left: 543px;
+      z-index: 1;
+      width: 2px;
+      height: 335px;
+      visibility: hidden;
+      display: none;
+   }
+  
+   .indicator1 {
+      margin-left: 527px;
+      margin-top: 24px;
+      text-transform: uppercase;
+      font-size: 13px;
+      visibility: hidden;
+      display: none;
+  
+   }
+  
+   .indicator2 {
+      margin-left: 706px;
+      margin-top: -20px;
+      text-transform: uppercase;
+      font-size: 13px;
+      visibility: hidden;
+      display: none;
+   }
+  
+   /* sidebar*/
+  
+   .p-sidebar {
+      transform: rotate(270deg);
+      color: #C4C4C4;
+      margin: 280px 0 100px;
+      white-space: nowrap;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 700;
+   }
+  
+   .sidebar {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      height: 100%;
+      width: 115px;
+      position: fixed;
+      z-index: 1000;
+      background: rgba(51, 51, 51, 0.75);
+      padding-top: 20px;
+      float: left;
+      visibility: hidden;
+      display: none;
+     
+   }
+  
+   .vl {
+      border-left: 2px solid #C4C4C4;
+      height: 60px;
+      margin-bottom: 30px;
+  }
+  
+  .ad {
+      margin-bottom: 10px;
+  }
+  
+  
+  
+  
+   /*block-2*/
+  .block-2 {
+      background-color: #333333;
+      width: 100%;
+      height: 69vh;
+      position: relative;
+  
+  }
+  
+  span {
+      color: #D1A954;
+  }
+  
+  .block-2inner {
+      display: inline-flex;
+      flex-direction: column;
+  }
+  
+  .ggg {
+      text-align: center;
+      font-size: 30px;
+      font-weight: 300;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      padding-top: 50px;
+  }
+  
+  .spb {
+      text-align: center;
+      padding-top: 40px;
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: 700;
+  }
+  .txtspb {
+      text-align: center;
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 150%;
+      padding-top: 30px;
+      width: 350px;
+
+  }
+  
+  .chair {
+     padding-top: 30px;
+     width: 40px;
+     height: 80px;
+     margin-top: -10px;
+     margin-left: 139px;
+     
+  }
+  
+  .bed {
+     width: 52px;
+     height: 44px;
+     margin-left: 132px;
+
+  }
+  
+  .dom {
+     width: 320px;
+     height: 227px;
+     margin-top: 82px;
+     padding-left: 70px;
+     visibility: hidden;
+   display: none;
+  }
+  
+  .txtspb2 {
+   text-align: center;
+     font-weight: 700;
+     font-size: 11px;
+     line-height: 150%;
+     padding-top: 6px;
+     padding-bottom: 15px;
+     margin-left: -2px;
+     margin-top: 1px;
+  }
+  
+  .information2 {
+     padding-left: 20px;
+     
+  }
+  
+  /*block-3*/
+  
+  
+  .block-3 {
+     display: block;
+     position: relative;
+     background-color: #333333;
+     width: 100%;
+     height: 69vh;
+  }
+  
+  .slider {
+   display: inline-flex;
+     position: relative;
+     padding-top: 87px;
+     margin-left: 61px;
+     
+  }
+  
+  /*fotki vonuchie*/
+  .fotka1 {
+     width:258px;
+     height:348px;
+  }
+  
+  /*4 Блок*/
+  
+  .block-4 {
+     background-color: #333333;
+     width: 100%;
+     height: 40vh;
+  }
+  
+  .zvezdi {
+   float: left;
+     width: 500px;
+     height: 300px;
+     margin-top: 30px;
+     margin-left: -48px;
+  }
+  
+  /*5 Блок*/
+  
+  .block-5 {
+     background-color: #333333;
+     width: 100%;
+     height: 45vh;
+  }
+  
+  .gasprom5, .gasprom6, .gasprom7, .gasprom8 {
+   width: 127px;
+   height: 62px;
+   margin: 20px 20px 15px 10px;
+  }
+  
+  .gasprom1, .gasprom2, .gasprom3, .gasprom4 {
+     
+     visibility: hidden;
+     display: none;
+  }
+  
+  .qqq {
+     padding-top: 60px;
+     padding-left: 30px;
+  }
+  
+  
+  /*6 Блок*/
+  
+  .block-6 {
+     background-color: #333333;
+     width: 100%;
+     height: 69vh;
+  }
+  
+  .block-6inner {
+     display: inline-flex;
+     position: relative;
+  }
+  
+  .info1 {
+     padding-top: 60px;
+     width: 120px;
+     margin-top: 274px;
+     margin-left: 10px;
+  }
+  
+  .info2 {
+   position: relative;
+     padding-left: 80px;
+     padding-top: 80px;
+     width: 300px;
+     margin-top: -37px;
+    margin-left: -204px; 
+  }
+  
+  p {
+     font-size: 10px;
+     line-height: 20px;
+     text-transform: uppercase;
+  }
+  
+  .name1 {
+     background-color: #444444;
+     border: 1px #444444 solid;
+     width: 150px;
+     height: 25px;
+     font-size: 11px;
+     margin-top: 10px;
+     margin-left:10px ;
+     padding-left:3px ;
+  
+  }
+  
+  .name2 {
+     background-color: #444444;
+     border: 1px #444444 solid;
+     width: 150px;
+     height: 25px;
+     font-size: 11px;
+     margin-top: 10px;
+     margin-left:10px ;
+     padding-left:3px ;
+  
+  }
+  
+  .name3 {
+     background-color: #444444;
+     border: 1px #444444 solid;
+     width: 150px;
+     height: 25px;
+     font-size: 11px;
+     margin-top: 10px;
+     margin-left:10px ;
+     padding-left:3px ;
+  
+  }
+  
+  .name4 {
+     background-color: #444444;
+     border: 0.5px #444444 solid;
+     width: 150px;
+     height: 25px;
+     font-size: 11px;
+     margin-top: 10px;
+     margin-left:10px ;
+     padding-left:3px ;
+  }
+  
+  .name5 {
+     background-color: #444444;
+     border: 1px #444444 solid;
+     width: 150px;
+     height: 75px;
+     font-size: 11px;
+     margin: -40px 13px 17px -144px;
+     padding-left:3px ;
+  }
+  
+  
+  .info4 {
+     margin-top: 7px;
+     margin-left: 375px;
+  }
+  
+  
+  .info3 {
+     margin-top: 47px;
+     margin-left: 10px;
+  }
+  
+  
+  .btn23 {
+     background-color: #D1A954;
+     width: 150px;
+     height: 35px;
+     border: 1px #D1A954 solid;
+   margin-left: -189px;
+   margin-top: 10px;
+  }
+  
+  .btn22 {
+     background-color: #D1A954;
+     color: white;
+     border: 1px #D1A954 solid;
+     text-transform: uppercase;
+     font-weight: 700;
+     font-size: 12px;
+    
+  }
+  
+  
+  
+  .ttt {
+     color: #989898;
+     font-size: 9px;
+     text-transform: none;
+     width: 300px;
+     line-height: normal;
+     padding-top: 20px;
+  }
+  
+  
+  .name5div {
+     margin-top: -175px;
+     margin-left: 331px;
+  }
+  
+  
+  /*footer*/
+  
+  .footer {
+     background-color: #333333;
+     width: 100%;
+     height: 40vh;
+  }
+  
+  .horizontal {
+  border: 0.5px solid #565656;
+  height: 0.5px;
+  width: 360px;
+  }
+  
+  
+  .leftfooter {
+  float: left;
+  font-size: 9px;
+  color: #989898;
+  padding-top: 15px;
+  }
+  
+  .rightfooter {
+  float: right;
+  font-size: 9px;
+  color: #989898;
+  padding-top: 15px;
+  
+  }
+
+
+}
+
+/* для айпада эир */
+@media screen and (max-Width:821px)and (min-width: 820px){
+    /* container */
+ .container {
+   width: 720px;
+   max-width: 100%;
+   margin: 0 auto;
+}
+
+
+
+/*header*/
+.header {
+   width: 100%;
+   position: relative;
+   z-index: 5;
+}
+
+.header-inner {
+   display: inline-flex;
+}
+
+.nav {
+   padding-top: 50px;
+   position: relative;
+   font-size: 13px;
+   text-transform: uppercase;
+   font-weight: 700;
+   text-align: center;
+   margin-left: 78px;
+}
+
+.nav-links {
+   text-decoration: none;
+   color: white;
+   display: inline-flex;
+   vertical-align: top;
+   margin-right: 20px;
+   letter-spacing: 0.1em;
+}
+
+.number {
+   font-size: 14px;
+   padding-top: 30px;
+   margin-left: -388px;
+   margin-top: 74px;
+
+}
+
+.number:after {
+   content: "";
+   display: block;
+   width: 100%;
+   height: 2px;
+   background-color: #D1A954;
+}
+
+
+
+/*intro*/
+.intro {
+   display: flex;
+   position: relative;
+   flex-direction: column;
+   justify-content: center;
+   width: 100%;
+   height: 57vh;
+   background: url("./fotki/Rectangle3.jpg") center no-repeat;
+   background-size: cover;
+   margin-top: -125px;
+}
+
+.title {
+   font-weight: 600;
+   font-size: 50px;
+   text-transform: uppercase;
+   margin-top: 120px;
+   margin-left: 148px;
+   letter-spacing: 0.05em;
+
+}
+
+.subtitle {
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 150%;
+   width: 500px;
+   padding-top: 35px;
+   font-style: normal;
+   margin-top: 6px;
+   margin-left: 148px;
+}
+
+.button {
+   border: #D1A954 3px solid;
+   background-color: #D1A954;
+   width: 146px;
+   height: 45px;
+   font-size: 13px;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: white;
+   margin-top: 57px;
+   margin-left: 150px;
+  
+
+}
+
+.image-top {
+   display: flex;
+   position: relative;
+   margin-top: -344px;
+   margin-left: 530px;
+   z-index: 4;
+   height: 335px;
+   visibility: hidden;
+   display: none;
+
+
+}
+
+.image-buttom {
+   display: flex;
+   position: relative;
+   margin-top: -321px;
+   margin-left: 543px;
+   z-index: 1;
+   width: 2px;
+   height: 335px;
+   visibility: hidden;
+   display: none;
+}
+
+.indicator1 {
+   margin-left: 527px;
+   margin-top: 24px;
+   text-transform: uppercase;
+   font-size: 13px;
+   visibility: hidden;
+   display: none;
+
+}
+
+.indicator2 {
+   margin-left: 706px;
+   margin-top: -20px;
+   text-transform: uppercase;
+   font-size: 13px;
+   visibility: hidden;
+   display: none;
+}
+
+/* sidebar*/
+
+.p-sidebar {
+   transform: rotate(270deg);
+   color: #C4C4C4;
+   margin: 280px 0 100px;
+   white-space: nowrap;
+   text-transform: uppercase;
+   font-size: 12px;
+   font-weight: 700;
+}
+
+.sidebar {
+   display: flex;
+   flex-flow: column;
+   align-items: center;
+   height: 100%;
+   width: 100px;
+   position: fixed;
+   z-index: 1000;
+   background: rgba(51, 51, 51, 0.75);
+   padding-top: 20px;
+   float: left;
+   
+}
+
+.vl {
+   border-left: 2px solid #C4C4C4;
+   height: 60px;
+   margin-bottom: 30px;
+}
+
+.ad {
+   margin-bottom: 10px;
+}
+
+
+
+
+/*block-2*/
+.block-2 {
+   background-color: #333333;
+   width: 100%;
+   height: 45vh;
+   position: relative;
+
+}
+
+span {
+   color: #D1A954;
+}
+
+.block-2inner {
+   display: inline-flex;
+}
+
+.ggg {
+   text-align: center;
+   font-size: 35px;
+   font-weight: 300;
+   text-transform: uppercase;
+   letter-spacing: 0.07em;
+   padding-top: 68px;
+}
+
+.spb {
+   padding-top: 80px;
+   font-size: 17px;
+   text-transform: uppercase;
+   font-weight: 700;
+}
+.txtspb {
+   font-weight: 400;
+   font-size: 11px;
+   line-height: 150%;
+   padding-top: 30px;
+   width: 350px;
+   text-transform: none;
+}
+
+.chair {
+  padding-top: 30px;
+  width: 43px;
+  height: 84px;
+  
+  
+}
+
+.bed {
+  width: 53px;
+  height: 47px;
+}
+
+.dom {
+  width: 320px;
+  height: 227px;
+  margin-top: 82px;
+  padding-left: 70px;
+  visibility: hidden;
+  display: none;
+}
+
+.txtspb2 {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 150%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.information1 {
+   padding-left: 100px;
+}
+
+.information2 {
+  padding-left: 20px;
+  
+}
+
+/*block-3*/
+
+
+.block-3 {
+  display: block;
+  position: relative;
+  background-color: #333333;
+  width: 100%;
+  height: 65vh;
+}
+
+.slider {
+
+   display: inline-flex;
+  position: relative;
+  padding-top: 115px;
+  margin-left: 99px;
+  
+}
+
+/*fotki vonuchie*/
+.fotka1 {
+  float: right;
+  width:275px;
+  height:358px;
+}
+
+/*4 Блок*/
+
+.block-4 {
+  text-align: center;
+  background-color: #333333;
+  width: 100%;
+  height: 45vh;
+}
+
+.zvezdi {
+  position: relative;
+  width: 911px;
+  height: 445px;
+  margin-top: -1px;
+  margin-left: -16px;
+}
+
+/*5 Блок*/
+
+.block-5 {
+  background-color: #333333;
+  width: 100%;
+  height: 45vh;
+}
+
+
+.gasprom1 {
+  width: 163px;
+  height: 78px;
+  margin: 20px 20px 20px 20px;
+}
+.gasprom2 {
+  width: 163px;
+  height: 78px;
+  margin: 20px 20px 20px 20px;
+}
+.gasprom3 {
+  width: 163px;
+  height: 78px;
+  margin: 20px 20px 20px 20px;
+}
+.gasprom4 {
+  width: 163px;
+  height: 78px;
+  margin: 20px 20px 20px 20px;
+}
+.gasprom5 {
+  width: 163px;
+  height: 78px;
+  margin: 20px 20px 20px 20px;
+}
+.gasprom6 {
+  width: 163px;
+  height: 78px;
+  margin: 20px 20px 20px 20px;
+}
+.gasprom7 {
+   visibility: hidden;
+   display: none;
+}
+.gasprom8 {
+visibility: hidden;
+display: none;
+}
+
+.qqq {
+  padding-top: 60px;
+  padding-left: 56px;
+}
+
+
+/*6 Блок*/
+
+.block-6 {
+  background-color: #333333;
+  width: 100%;
+  height: 50vh;
+}
+
+.block-6inner {
+  display: inline-flex;
+  position: relative;
+}
+
+.info1 {
+   padding-top: 60px;
+   width: 170px;
+   margin-top: 292px;
+    margin-left: 83px;
+    padding-left: 10px;
+    visibility: hidden;
+    display: none;
+}
+
+.info2 {
+ position: relative;
+   padding-left: 80px;
+   padding-top: 80px;
+   width: 300px;
+   margin-top: -37px;
+  margin-left: 40px; 
+}
+
+p {
+   font-size: 10px;
+   line-height: 20px;
+   text-transform: uppercase;
+}
+
+.name1 {
+  background-color: #444444;
+  border: 1px #444444 solid;
+  width: 240px;
+  height: 30px;
+  font-size: 11px;
+  margin: 8px 13px 17px 6px;
+  padding-left:3px ;
+
+}
+
+.name2 {
+  background-color: #444444;
+  border: 1px #444444 solid;
+  width: 240px;
+  height: 30px;
+  font-size: 11px;
+  margin: 8px 13px 17px 6px;
+  padding-left:3px ;
+
+}
+
+.name3 {
+  background-color: #444444;
+  border: 1px #444444 solid;
+  width: 240px;
+  height: 30px;
+  font-size: 11px;
+  margin: 8px 13px 17px 6px;
+  padding-left:3px ;
+
+}
+
+.name4 {
+  background-color: #444444;
+  border: 0.5px #444444 solid;
+  width: 240px;
+  height: 30px;
+  font-size: 11px;
+  margin: 8px 13px 17px 6px;
+  padding-left:3px ;
+}
+
+.name5 {
+  background-color: #444444;
+  border: 1px #444444 solid;
+  width: 210px;
+  height: 75px;
+  font-size: 11px;
+  margin: 8px 13px 17px 6px;
+  padding-left:3px ;
+}
+
+
+.info4 {
+  margin-top: 7px;
+  margin-left: 375px;
+}
+
+
+.info3 {
+  margin-top: -55px;
+  margin-left: 5px;
+}
+
+
+.btn23 {
+  background-color: #D1A954;
+  width: 140px;
+  height: 35px;
+  border: 1px #D1A954 solid;
+   margin-top: 10px;
+   margin-left: -67px;
+}
+
+.btn22 {
+  background-color: #D1A954;
+  color: white;
+  border: 1px #D1A954 solid;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  
+
+}
+
+
+
+.ttt {
+  color: #989898;
+  font-size: 9px;
+  text-transform: none;
+  width: 300px;
+  line-height: normal;
+  padding-top: 145px;
+}
+
+
+.name5div {
+  margin-top: -221px;
+  margin-left: 299px;
+}
+
+
+/*footer*/
+
+.footer {
+  background-color: #333333;
+  width: 100%;
+  height: 40vh;
+}
+
+.horizontal {
+border: 0.5px solid #565656;
+height: 0.5px;
+width: 720px;
+}
+
+
+.leftfooter {
+float: left;
+font-size: 9px;
+color: #989898;
+padding-top: 15px;
+}
+
+.rightfooter {
+float: right;
+font-size: 9px;
+color: #989898;
+padding-top: 15px;
+
+}
+
+   }
+
+
